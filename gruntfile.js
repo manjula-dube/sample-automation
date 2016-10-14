@@ -8,6 +8,10 @@ module.exports = function (grunt) {
         dest: 'destination/spritesheet.jpeg',
         destCss: 'destination/css/sprites.css',
         algorithm: 'alt-diagonal',
+        //algorithm:left-right,
+        //algorithm:top-down,
+        //algorith:binary-tree
+
         padding: 20,
       }
     }
